@@ -6,7 +6,7 @@
 
 ### Database preparation
 
-**GDB-9**, the database used in the computational experiments in paper [1], is an openly available database of 134K small organic molecules consisting of 9 and less atoms of C, O, N, S and Cl, not counting hydrogens. The molecules are stored as SMILES strings. The SMILES is the most compact format of molecular description. Most programs and utilities for molecule editing and visualisation accept the SMILES format.
+**GDB-9**, the database used in the computational experiments in paper [1], is an openly available database of 320K small organic molecules consisting of 9 and less atoms of C, O, N, S and Cl, not counting hydrogens. The molecules are stored as SMILES strings. The SMILES is the most compact format of molecular description. Most programs and utilities for molecule editing and visualisation accept the SMILES format.
 
 Note that there exists another database GDB-9 (DOI: 10.1038/sdata.2014.22) that lists the molecules consisting of C, O, N and F atoms.
 
