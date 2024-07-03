@@ -41,8 +41,11 @@ _970 Million Druglike Small Molecules for Virtual Screening in the Chemical Univ
 In order to generate PDBQT files from a SMILES set, one needs to perform a series of steps. Suppose that the file MOLECULES.smi contains a list of molecule descriptions in SMILES format.
 
 1. Generate 3D coordinates for all molecules in a file, SMILES → SDF
-	obgen MOLECULES.smi > MOLECULES.sdf
-2. Generate a separate PDB file for each molecule, SDF → PDB
-	obabel -isdf MOLECULES.sdf -opdb -OMOLECULE.pdb -m
-3. Prepare PDBQT file for docking (adding hydrogens as necessary etc.), PDB → PDBQT
-	pythonsh prepare_ligand4.py -l MOLECULE.pdb -o MOLECULE.pdbqt -U \"""
+   
+	`obgen MOLECULES.smi > MOLECULES.sdf`
+3. Generate a separate PDB file for each molecule, SDF → PDB
+   
+	`obabel -isdf MOLECULES.sdf -opdb -OMOLECULE.pdb -m`
+5. Prepare PDBQT file for docking (adding hydrogens as necessary etc.), PDB → PDBQT
+6. 
+	`pythonsh prepare_ligand4.py -l MOLECULE.pdb -o MOLECULE.pdbqt -U \"""`
