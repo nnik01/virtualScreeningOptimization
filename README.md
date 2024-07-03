@@ -12,7 +12,7 @@ Note that there exists another database GDB-9 (DOI: 10.1038/sdata.2014.22) that 
 
 GDB-9 is a nice dataset to test the algorithms. More up-to-date GDB databases are available at https://zenodo.org/records/7041051.
 
-A local copy of GDB-9 is available. One can subset GDB-13 having downloaded it from the official source or an unofficial mirror (for example, https://huggingface.co/datasets/osbm/gdb_databases/tree/main).
+A local copy of GDB-9 is available. One can also subset GDB-13 having downloaded it from the official source or an unofficial mirror (for example, https://huggingface.co/datasets/osbm/gdb_databases/tree/main).
 
 ### Database preparation
 
