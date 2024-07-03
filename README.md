@@ -15,14 +15,14 @@ As for 2024, GDB-9 seems to be outdated and not actively used in drug discovery.
 **AutoDock Vina** is an open-source program for molecular docking and virtual screening. Before performing virtual screening with AD Vina, several preparations of input files are needed. The input file format for AD Vina is PDBQT. This is a file describing molecular structure in 3D coordinates, therefore requiring much more disc space in comparison with compact file formats. 
 
 **OpenBabel** is a toolset of applications to analyze and process chemical data.
-    • obabel — files format conversion
-    • obgen — generation of 3D coordinates for a molecule 
-    • etc.
+    * obabel — files format conversion
+    * obgen — generation of 3D coordinates for a molecule 
+    * etc.
 
 **MGLTools** is a set of applications to visualize and analyze molecular structures. Some of them are intended for virtual screening. 
-    • prepare_ligand4.py — preparation of a ligand file for virtual screening
-    • prepare_receptor4.py — preparation of a receptor file for virtual screening
-    • etc.
+    * prepare_ligand4.py — preparation of a ligand file for virtual screening
+    * prepare_receptor4.py — preparation of a receptor file for virtual screening
+    * etc.
 
 In order to generate PDBQT files from a SMILES set, one needs to perform a series of steps. Suppose that the file MOLECULES.smi contains a list of molecule descriptions in SMILES format.
 
