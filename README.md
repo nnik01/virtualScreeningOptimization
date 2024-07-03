@@ -26,7 +26,7 @@ In order to generate PDBQT files from a SMILES set, one needs to perform a serie
 
 1. Generate 3D coordinates for all molecules in a file, SMILES → SDF
 	obgen MOLECULES.smi > MOLECULES.sdf
-2. Generate separate PDB file for each molecule, SDF → PDB
+2. Generate a separate PDB file for each molecule, SDF → PDB
 	obabel -isdf MOLECULES.sdf -opdb -OMOLECULE.pdb -m
 3. Prepare PDBQT file for docking (adding hydrogens as necessary etc.), PDB → PDBQT
 	pythonsh prepare_ligand4.py -l MOLECULE.pdb -o MOLECULE.pdbqt -U \"""
