@@ -38,8 +38,6 @@ When using GDB-9 or GDB-13 in a published work, one should cite:
 
 _970 Million Druglike Small Molecules for Virtual Screening in the Chemical Universe Database GDB-13. Blum L. C.; Reymond J.-L. J. Am. Chem. Soc., 2009, 131, 8732-8733._
 
-### Molecular docking
-
 **AutoDock Vina** is an open-source program for molecular docking and virtual screening. Before performing virtual screening with AD Vina, several preparations of input files are needed. The input file format for AD Vina is PDBQT. This is a file describing molecular structure in 3D coordinates, therefore requiring much more disc space in comparison with compact file formats. 
 
 **OpenBabel** is a toolset of applications to analyze and process chemical data.
