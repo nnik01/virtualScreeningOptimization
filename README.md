@@ -8,6 +8,8 @@
 
 **GDB-9**, the database used in the computational experiments in paper [1], is an openly available database of 134K small organic molecules consisting of 9 and less atoms, not counting hydrogens. The molecules are stored as SMILES strings. The SMILES is the most compact format of molecular description. Most programs and utilities for molecule editing and visualisation accept the SMILES format.
 
+As for 2024, GDB-9 seems to be outdated and not actively used in drug discovery. Still, it can serve as a nice dataset to test the algorithms. More up-to-date GDB databases are available at https://zenodo.org/records/7041051.
+
 **AutoDock Vina** is an open-source program for molecular docking and virtual screening. Before performing virtual screening with AD Vina, several preparations of input files are needed. The input file format for AD Vina is PDBQT. This is a file describing molecular structure in 3D coordinates, therefore requiring much more disc space in comparison with compact file formats. 
 
 **OpenBabel** is a toolset of applications to analyze and process chemical data.
