@@ -1,10 +1,12 @@
 # virtualScreeningOptimization
-## Scripts and programs to facilitate the development of new task scheduling methods for virtual screening.
+
+## Scripts and programs to facilitate the development of new task scheduling methods for virtual screening
+
 ### Papers
 
 [1] The paper describing the task scheduling method for virtual screening which aims to find a balance between the number of interim hits and their chemical diversity: http://rdcu.be/CVPk (DOI: 10.1007/s10822-017-0093-7).
 
-### Database 
+### Database preparation 
 
 **GDB-9**, the database used in the computational experiments in paper [1], is an openly available database of 320K small organic molecules consisting of 9 and less atoms of C, O, N, S and Cl, not counting hydrogens. It is a subset of GDB-13. The molecules are stored as SMILES strings. The SMILES is the most compact format of molecular description. Most programs and utilities for molecule editing and visualisation accept the SMILES format.
 
@@ -18,7 +20,7 @@ When using GDB-9 or GDB-13 in a published work, one should cite:
 
 _970 Million Druglike Small Molecules for Virtual Screening in the Chemical Universe Database GDB-13. Blum L. C.; Reymond J.-L. J. Am. Chem. Soc., 2009, 131, 8732-8733._
 
-### Database preparation
+### Molecular docking
 
 **AutoDock Vina** is an open-source program for molecular docking and virtual screening. Before performing virtual screening with AD Vina, several preparations of input files are needed. The input file format for AD Vina is PDBQT. This is a file describing molecular structure in 3D coordinates, therefore requiring much more disc space in comparison with compact file formats. 
 
