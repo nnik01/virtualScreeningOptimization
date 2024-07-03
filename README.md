@@ -38,14 +38,6 @@ _970 Million Druglike Small Molecules for Virtual Screening in the Chemical Univ
 - prepare_receptor4.py — preparation of a receptor file for virtual screening
 - etc.
 
-In order to generate PDBQT files from a SMILES set, one needs to perform a series of steps. Suppose that the file MOLECULES.smi contains a list of molecule descriptions in SMILES format.
+In order to generate PDBQT files from a SMILES set, one needs to perform conversion. Suppose that the file MOLECULES.smi contains a list of molecule descriptions in SMILES format. Generate PDBQT files: 
 
-1. Generate 3D coordinates for all molecules in a file, SMILES → SDF
-   
-	`obgen MOLECULES.smi > MOLECULES.sdf`
-2. Generate a separate PDB file for each molecule, SDF → PDB
-   
-	`obabel -isdf MOLECULES.sdf -opdb -OMOLECULE.pdb -m`
-3. Prepare PDBQT file for docking (adding hydrogens as necessary etc.), PDB → PDBQT
- 
-	`pythonsh prepare_ligand4.py -l MOLECULE.pdb -o MOLECULE.pdbqt -U \"""`
+`obabel -ismi MOLECULES.smi -opdbqt -O MOLECULE.pdbqt -m --gen3D -h`
