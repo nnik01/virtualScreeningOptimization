@@ -67,6 +67,12 @@ In order to generate PDBQT files from a SMILES set, one needs to perform convers
 
 `obabel -ismi MOLECULES.smi -opdbqt -O MOLECULE.pdbqt -m --gen3D -h`
 
-### 4. Molecular docking
+In order to calculate chemical properties of a molecule, one can use `obprop` utility:
+
+`obprop MOLECULE.pdbqt`
+
+Calculated chemical properties of GDB-9 are prepared in folder `gdb9_properties`.
+
+### 4. Молекулярный докинг
 
 
