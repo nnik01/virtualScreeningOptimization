@@ -2,7 +2,7 @@
 
 ## Scripts and programs to facilitate the development of new task scheduling methods for virtual screening
 
-### Задача оптимизации
+### 1. Задача оптимизации
 
 **Целевая функция:** оценка свободной энергии связывания лиганда с мишенью (kcal/mol).
  
@@ -31,13 +31,13 @@
 векторов, где каждая координата соответствует наличию определенного химического свойства или структурного 
 фрагмента. Чем ближе к 1, тем более схожи молекулы. 
 
-### Papers
+### 2. Papers
 
 >[1] Natalia Nikitina, Evgeny Ivashko, Andrei Tchernykh. Congestion Game Scheduling for Virtual Drug Screening Optimization // Journal of Computer-Aided Molecular Design, Vol. 32, I. 2. 2018. Pp. 363-374.
 
 The paper describes a task scheduling method for virtual screening which aims to find a balance between the number of interim hits and their chemical diversity, http://rdcu.be/CVPk (DOI: 10.1007/s10822-017-0093-7).
 
-### Database preparation 
+### 3. Database preparation 
 
 **GDB-9**, the database used in the computational experiments in paper [1], is an openly available database of 320K small organic molecules consisting of 9 and less atoms of C, O, N, S and Cl, not counting hydrogens. It is a subset of GDB-13. The molecules are stored as SMILES strings. The SMILES is the most compact format of molecular description. Most programs and utilities for molecule editing and visualisation accept the SMILES format.
 
@@ -65,5 +65,7 @@ A version of GDB-9 prepared for molecular docking with AutoDock Vina is availabl
 In order to generate PDBQT files from a SMILES set, one needs to perform conversion. Suppose that the file MOLECULES.smi contains a list of molecule descriptions in SMILES format. Generate PDBQT files: 
 
 `obabel -ismi MOLECULES.smi -opdbqt -O MOLECULE.pdbqt -m --gen3D -h`
+
+### 4. Molecular docking
 
 
