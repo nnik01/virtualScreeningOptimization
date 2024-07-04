@@ -35,7 +35,8 @@
 
 >[1] Natalia Nikitina, Evgeny Ivashko, Andrei Tchernykh. Congestion Game Scheduling for Virtual Drug Screening Optimization // Journal of Computer-Aided Molecular Design, Vol. 32, I. 2. 2018. Pp. 363-374.
 
-The paper describes a task scheduling method for virtual screening which aims to find a balance between the number of interim hits and their chemical diversity, http://rdcu.be/CVPk (DOI: 10.1007/s10822-017-0093-7).
+The paper describes a task scheduling method for virtual screening which aims to find a balance between the number of interim hits and their chemical diversity, http://rdcu.be/CVPk (DOI: 10.1007/s10822-017-0093-7). 
+Or read a locally stored copy [Submitted version JCAM 2017.pdf](Submitted version JCAM 2017.pdf).
 
 ### 3. Database preparation 
 
