@@ -96,12 +96,12 @@ PSA              0
 MR               16.215
 $$$$
 ```
-Here, we can see the calculated chemical properties mol_weight, exact_mass etc. One can use them to divide the database into blocks in very different ways.
+Here, we can see the calculated chemical properties mol_weight, exact_mass etc. 
 
 > [!TIP]
 > Calculated chemical properties of GDB-9 are available at https://drive.google.com/drive/folders/1ccjqvMtQown56prDQNK-eQ87pQ11Z3m2?usp=sharing (gdb9_properties.zip).
 
-Next, one can divide the database into blocks depending on the calculated properties. An example is given in paper [1].
+Next, one can divide the database into blocks in very different ways depending on the calculated properties. An example is given in paper [1].
 
 > [!TIP]
 > The division of GDB-9 into 16 blocks as described in paper [1] is available at [gdb9_paper_16blocks.txt](gdb9_paper_16blocks.txt). The data has the following structure: LIGAND_NAME NUM_ATOMS PSA BLOCK.
