@@ -49,7 +49,10 @@ GDB-9 is a nice dataset to test the algorithms. More up-to-date GDB databases ar
 
 **AutoDock Vina** is an open-source program for molecular docking and virtual screening. Before performing virtual screening with AD Vina, several preparations of input files are needed. The input file format for AD Vina is PDBQT. This is a file describing molecular structure in 3D coordinates, therefore requiring much more disc space in comparison with compact file formats. 
 
-A version of GDB-9 prepared for molecular docking with AutoDock Vina is available at https://drive.google.com/drive/folders/1ccjqvMtQown56prDQNK-eQ87pQ11Z3m2?usp=sharing (gdb9_prepared.zip). If one needs to prepare own files, please refer to the following information:
+> [!TIP]
+> A version of GDB-9 prepared for molecular docking with AutoDock Vina is available at https://drive.google.com/drive/folders/1ccjqvMtQown56prDQNK-eQ87pQ11Z3m2?usp=sharing (gdb9_prepared.zip).
+
+If one needs to prepare own files, please refer to the following information:
 
 **OpenBabel** is a toolset of applications to analyze and process chemical data.
 
