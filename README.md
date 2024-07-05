@@ -74,6 +74,8 @@ In order to calculate chemical properties of a molecule, one can use `obprop` ut
 
 `obprop MOLECULE.pdbqt`
 
-Calculated chemical properties of GDB-9 are available at https://drive.google.com/drive/folders/1ccjqvMtQown56prDQNK-eQ87pQ11Z3m2?usp=sharing (gdb9_properties.zip). 
+
+> [!TIP]
+> Calculated chemical properties of GDB-9 are available at https://drive.google.com/drive/folders/1ccjqvMtQown56prDQNK-eQ87pQ11Z3m2?usp=sharing (gdb9_properties.zip). 
 
 
