@@ -2,10 +2,10 @@
 
 ## Scripts and programs to facilitate the development of new task scheduling methods for virtual screening
 
-### 1. Задача оптимизации
+### 1. Optimization problem
 
-**Целевая функция:** оценка свободной энергии связывания лиганда с мишенью (kcal/mol). 
-Реализована в программе для молекулярного докинга AutoDock Vina (https://github.com/ccsb-scripps/AutoDock-Vina).
+**Objective function:** the scoring function, an estimate of the protein-ligand binding free energy (kcal/mol). 
+Implemented in programs for molecular docking, such as AutoDock Vina (https://github.com/ccsb-scripps/AutoDock-Vina).
  
 **Мишень** - крупная молекула сложной формы (часто - белок). **Лиганд** - малая молекула, способная
 связываться с мишенью в специальном месте на ее поверхности при помощи сил межмолекулярного
