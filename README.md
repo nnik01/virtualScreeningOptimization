@@ -4,24 +4,34 @@
 
 ### 1. Optimization problem
 
-**Objective function:** the scoring function, an estimate of the protein-ligand binding free energy (kcal/mol). 
+**Objective function:** the scoring function, an estimate of the target-ligand binding free energy (kcal/mol). 
 Different programs for molecular docking use different scoring functions. The scoring function of AutoDock Vina 
 is implemented in its [source code](https://github.com/ccsb-scripps/AutoDock-Vina) and presented in the paper 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3041641/.
- 
-**Мишень** - крупная молекула сложной формы (часто - белок). **Лиганд** - малая молекула, способная
-связываться с мишенью в специальном месте на ее поверхности при помощи сил межмолекулярного
-взаимодействия. Свободная энергия связывания оценивается при помощи **молекулярного докинга** - 
-компьютерного моделирования трехмерных атомарных моделей мишени и лиганда, учитывает различные возможные 
-положения лиганда в сайте связывания мишени, включает в себя расчет сил межмолекулярного и межатомного 
-взаимодействия между ними. 
 
-Оптимальное положение конкретного лиганда в сайте связывания конкретной мишени
-достигается в глобальном минимуме свободной энергии их связывания. Точно вычислить на компьютере
-глобальный минимум (перебрать все возможные способы связывания лиганда с белком) невозможно,
-используются различные приближенные алгоритмы. Таким образом, значение целевой функции зависит от
-химической структуры лиганда и мишени, от вкладов различных молекулярных сил, от конкретной выбранной
-математической функции, от качества компьютерных моделей мишени и лиганда и от погрешности вычислений.
+**Target** is a large molecule of complex shape (often a protein). **Ligand** is a small molecule capable of
+binding to the target at a special place on its surface using intermolecular forces. Binding free energy is 
+estimated using **molecular docking** - a computer modeling of 3D atomic models of the target and ligand that 
+considers various possible positions of the ligand in the binding site of the target and includes the calculation 
+of intermolecular and interatomic forces of their interactions.
+
+Optimal position of a specific ligand in the binding site of a specific target
+is achieved at the global minimum of their free energy of binding. One cannot calculate an exact global minimum 
+on a computer (it is impossible to enumerate all possible ways of binding a ligand to a protein), thus various 
+approximate algorithms are used. The value of the objective function depends on the chemical structures of the 
+ligand and the target, the contributions of various molecular forces, the specific chosen mathematical function, 
+the quality of computer models of the target and ligand, and the calculations error.
+
+**Virtual screening** is a computerized procedure for performing molecular docking on large
+databases of ligands and selecting **hits** among them - molecules that showed the best estimates of binding energy with
+target. In virtual screening, you need to find a number of local minima of the objective function on a set of ligands.
+The value of the objective function correlates with the physicochemical properties of the ligands, so that similar ligands
+often give close values. But there are also exceptions. For an expert who will analyze a set of
+hits, it is important not only to estimate the binding energy, but also their chemical diversity.
+
+The chemical similarity of molecules is calculated using the Tanimoto coefficient - this is a measure of the similarity of two binary
+vectors, where each coordinate corresponds to the presence of a certain chemical property or structural
+fragment. The closer to 1, the more similar the molecules are.
 
 **Виртуальный скрининг** - это компьютеризованная процедура проведения молекулярного докинга по большим 
 базам лигандов и выбора среди них **хитов** - молекул, показавших наилучшие оценки энергии связывания с 
