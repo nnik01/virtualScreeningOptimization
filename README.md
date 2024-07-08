@@ -6,7 +6,7 @@
 
 **Objective function:** the scoring function, an estimate of the protein-ligand binding free energy (kcal/mol). 
 Different programs for molecular docking use different scoring functions. The scoring function of AutoDock Vina 
-is implemented in the source code  (https://github.com/ccsb-scripps/AutoDock-Vina) and presented in the paper 
+is implemented in its [source code](https://github.com/ccsb-scripps/AutoDock-Vina) and presented in the paper 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3041641/.
  
 **Мишень** - крупная молекула сложной формы (часто - белок). **Лиганд** - малая молекула, способная
