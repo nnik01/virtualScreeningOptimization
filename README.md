@@ -108,4 +108,5 @@ Next, one can divide the database into blocks in very different ways depending o
 > [!TIP]
 > The division of GDB-9 into 16 blocks as described in paper [1] is available at [gdb9_paper_16blocks.txt](gdb9_paper_16blocks.txt). The data has the following structure: LIGAND_NAME NUM_ATOMS PSA BLOCK.
 
-
+> [!TIP]
+> The results of molecular docking on GDB-9 are available at https://drive.google.com/drive/folders/1ccjqvMtQown56prDQNK-eQ87pQ11Z3m2?usp=sharing (gdb9_docked.zip).
