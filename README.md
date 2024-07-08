@@ -70,7 +70,11 @@ If one needs to prepare own files, please refer to the following information:
 
 In order to generate PDBQT files from a SMILES set, one needs to perform conversion. Suppose that the file MOLECULES.smi contains a list of molecule descriptions in SMILES format. Generate PDBQT files: 
 
-`obabel -ismi MOLECULES.smi -opdbqt -O MOLECULE.pdbqt -m --gen3D -h`
+`obabel -ismi MOLECULES.smi -opdbqt -O MOLECULE.pdbqt -m --gen3d -h`
+
+In case of an error "3D coordinate generation failed", try the following command:
+
+`obabel -ismi MOLECULE.smi -ocan | obabel -ismi -h --gen2d -osdf | obabel -isdf --gen3d -h -opdbqt -O MOLECULE.pdbqt`
 
 In order to calculate chemical properties of a molecule, one can use `obprop` utility:
 
