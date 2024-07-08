@@ -22,27 +22,16 @@ approximate algorithms are used. The value of the objective function depends on 
 ligand and the target, the contributions of various molecular forces, the specific chosen mathematical function, 
 the quality of computer models of the target and ligand, and the calculations error.
 
-**Virtual screening** is a computerized procedure for performing molecular docking on large
-databases of ligands and selecting **hits** among them - molecules that showed the best estimates of binding energy with
-target. In virtual screening, you need to find a number of local minima of the objective function on a set of ligands.
+**Virtual screening** is a computerized procedure for performing molecular docking on large databases of ligands 
+and selecting the **hits** among them - molecules that showed the best estimates of binding free energy with the
+target. In virtual screening, one needs to find a number of local minima of the objective function on a set of ligands.
 The value of the objective function correlates with the physicochemical properties of the ligands, so that similar ligands
-often give close values. But there are also exceptions. For an expert who will analyze a set of
-hits, it is important not only to estimate the binding energy, but also their chemical diversity.
+often give close values. But there are also exceptions. For an expert who will analyze a set of hits, it is important not 
+only to estimate the binding energy, but also their chemical diversity.
 
-The chemical similarity of molecules is calculated using the Tanimoto coefficient - this is a measure of the similarity of two binary
-vectors, where each coordinate corresponds to the presence of a certain chemical property or structural
+The chemical similarity of molecules is calculated using the Tanimoto coefficient - a measure of the similarity 
+of two binary vectors, where each coordinate corresponds to the presence of a certain chemical property or structural
 fragment. The closer to 1, the more similar the molecules are.
-
-**Виртуальный скрининг** - это компьютеризованная процедура проведения молекулярного докинга по большим 
-базам лигандов и выбора среди них **хитов** - молекул, показавших наилучшие оценки энергии связывания с 
-мишенью. При виртуальном скрининге нужно найти ряд локальных минимумов целевой функции на множестве лигандов.
-Значение целевой функции коррелирует с физико-химическими свойствами лигандов, так что схожие лиганды
-часто дают близкие значения. Но бывают и исключения. Для эксперта, который будет анализировать множество 
-хитов, важна не только оценка энергии связывания, но также их химическое разнообразие. 
-
-Химическое сходство молекул вычисляется при помощи коэффициента Танимото - это мера сходства двух бинарных 
-векторов, где каждая координата соответствует наличию определенного химического свойства или структурного 
-фрагмента. Чем ближе к 1, тем более схожи молекулы. 
 
 ### 2. Papers
 
