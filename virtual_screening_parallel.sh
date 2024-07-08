@@ -1,7 +1,7 @@
 #!/bin/bash
 
-LIGANDSDIR="$HOME/work/2024/Optimization/HiTViSc/gdb9_pdbqt"
-LIGANDLIST="$HOME/work/2024/Optimization/HiTViSc/add_list_pdbqt"
+LIGANDSDIR="$HOME/work/2024/Optimization/HiTViSc/missing_pdbqt"
+LIGANDLIST="$HOME/work/2024/Optimization/HiTViSc/list_missing_pdbqt"
 RESULTSDIR="$HOME/work/2024/Optimization/HiTViSc/gdb9_docked"
 AUTODOCKVINA="$HOME/work/2024/Optimization/HiTViSc/MolecularDocking/Software/vina_1.2.5_linux_x86_64"
 RECEPTOR="$HOME/work/2024/Optimization/HiTViSc/MolecularDocking/RORa_Hydrogens.pdbqt"
